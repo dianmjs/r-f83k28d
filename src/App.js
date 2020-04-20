@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
-import './App.css';
+import React, { Component } from "react";
+import "./App.css";
 
 class App extends Component {
   render() {
     return (
       <div>
-        <span className="value">0</span>
+        <span className="value">1</span>
         <button id="inc">Incrementa</button>
       </div>
     );
